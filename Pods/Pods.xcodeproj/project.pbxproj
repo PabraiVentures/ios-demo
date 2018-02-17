@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CD66E2C3203FA0AE4861F0AF7AB011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1B6B1633861C7DC7C702280654AA9258 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492F05D9053390BE24A1FB884C5A9D6A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		54C8DDE8C0FEA4114F3028F9009E88DF /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
+		62CD2D55A3B6E991D4D9D6B732810ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D06B654B7B31F8E6601BA78522B69B7 /* Pods-BitcoinPriceTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7396B14D35E2F6C2EFE348EAE2A70122 /* Pods-BitcoinPriceTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		850BC04E0EFBD1389C4D3F5266ABD1C6 /* Pods-BitcoinPriceTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A23F129A94E354519750C545736FE7F /* Pods-BitcoinPriceTrackerUITests-dummy.m */; };
+		8DD36ECC8407E3F9C6301B40E5D3B8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9184B3280A1F87D0ECF0965998281CF0 /* Pods-BitcoinPriceTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3031E88D2E2EDDCF5753220B9BA960F /* Pods-BitcoinPriceTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C4386EF7ABFC552211061106E451C8 /* Pods-BitcoinPriceTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE771749DB30D5BEC4C1E8701F2CDAB3 /* Pods-BitcoinPriceTracker-dummy.m */; };
+		ADF6288739B17E281DD6DF7D2636E490 /* Pods-BitcoinPriceTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D551C8B9B5A3945559827295F964A7C /* Pods-BitcoinPriceTrackerTests-dummy.m */; };
+		D780A8D1AB71E0675A70FDCDF9F7F996 /* Pods-BitcoinPriceTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D524A87B0A66907AAA74FBFCA8026B1 /* Pods-BitcoinPriceTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED037553BFB51BB1A42E97082EF91076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C635AEDC5ADBF663D783B8FD45D5182C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458654988E00739B5DC2235EB2759F44;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		143698A37FD80B0470C240A28497928B /* Pods-BitcoinPriceTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitcoinPriceTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1868DD18896E9E75915113B318E79699 /* Pods_BitcoinPriceTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BitcoinPriceTrackerUITests.framework; path = "Pods-BitcoinPriceTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A35F75B4AEBBDCC3B083DD4416AFD7B /* Pods-BitcoinPriceTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BitcoinPriceTrackerTests.modulemap"; sourceTree = "<group>"; };
+		1D34C0C9FF9583AC158D93BE5D389381 /* Pods-BitcoinPriceTrackerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPriceTrackerTests-frameworks.sh"; sourceTree = "<group>"; };
+		2057643A5FB9DFC6403ECF824B13D3BA /* Pods-BitcoinPriceTrackerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPriceTrackerTests-resources.sh"; sourceTree = "<group>"; };
+		2CE37F8D2990F6E29C843A55EDF6381F /* Pods-BitcoinPriceTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitcoinPriceTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		4A23F129A94E354519750C545736FE7F /* Pods-BitcoinPriceTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitcoinPriceTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		50D9A6AFA356311FDB02CD72C5F084A8 /* Pods-BitcoinPriceTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitcoinPriceTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6921544627F49683F60AE479D2B11675 /* Pods-BitcoinPriceTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BitcoinPriceTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		6D524A87B0A66907AAA74FBFCA8026B1 /* Pods-BitcoinPriceTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitcoinPriceTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		6D551C8B9B5A3945559827295F964A7C /* Pods-BitcoinPriceTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitcoinPriceTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		7240A77709AA16A8BCC14BEA354E0B1D /* Pods-BitcoinPriceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPriceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7396B14D35E2F6C2EFE348EAE2A70122 /* Pods-BitcoinPriceTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitcoinPriceTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		7EBDCF94F5A3D09B5C87CB74F32A6D01 /* Pods-BitcoinPriceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPriceTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		80BE2E7C57B89C8E1B9ACD89CBCA2D1C /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85453DE93DE660225B57786F411C8B41 /* Pods-BitcoinPriceTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPriceTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		856985B56EFF3B1B4911A6F328C7B504 /* Pods-BitcoinPriceTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitcoinPriceTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F0A0996A220769BBB962127ABBC448E /* Pods-BitcoinPriceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPriceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92549CE3D0F29ACAE2AE65CDF4B70382 /* Pods-BitcoinPriceTrackerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPriceTrackerUITests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9707F671E66B1E4431614209E62D313D /* Pods-BitcoinPriceTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPriceTracker-frameworks.sh"; sourceTree = "<group>"; };
+		A8BE6472458266171D4B0ABC68CAD967 /* Pods_BitcoinPriceTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BitcoinPriceTrackerTests.framework; path = "Pods-BitcoinPriceTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED1A4C0AB19F6C02596CDCD61271F59 /* Pods-BitcoinPriceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPriceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		B550AB1B52C75FA1A42FDC3DA30D3ADF /* Pods-BitcoinPriceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPriceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		BE7CDA5471763D8B3DD83836A77E09EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E22A43BFD1F646D2731E4D217CE3B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9F72221FCFA1F852A00196900E997D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		DB544BE4BB59642F0C3D35379118AD11 /* Pods-BitcoinPriceTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitcoinPriceTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DED07C209577616D41239EB8E122552C /* Pods-BitcoinPriceTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BitcoinPriceTracker.modulemap"; sourceTree = "<group>"; };
+		EBA14403827910087FC366233FCF9746 /* Pods-BitcoinPriceTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitcoinPriceTracker-resources.sh"; sourceTree = "<group>"; };
+		EBEE71001537B51BF347A3F9D2AFDB50 /* Pods-BitcoinPriceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitcoinPriceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3031E88D2E2EDDCF5753220B9BA960F /* Pods-BitcoinPriceTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitcoinPriceTracker-umbrella.h"; sourceTree = "<group>"; };
+		F43394139DA778850AAC6CD529D62E2B /* Pods_BitcoinPriceTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BitcoinPriceTracker.framework; path = "Pods-BitcoinPriceTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FF7DE4960D293FBE3C55407F8784F6 /* Pods-BitcoinPriceTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitcoinPriceTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE771749DB30D5BEC4C1E8701F2CDAB3 /* Pods-BitcoinPriceTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitcoinPriceTracker-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		159DF2DADEDEA4E8EAD0FAEFFAB9D3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CD2D55A3B6E991D4D9D6B732810ABB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E284182727A65FC7FDBE63B6D2808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED037553BFB51BB1A42E97082EF91076 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E967A13C699B3C1D38B44E5B259AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD36ECC8407E3F9C6301B40E5D3B8B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895E959DB758331CAC22BFCD40E22237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CD66E2C3203FA0AE4861F0AF7AB011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA0B41A18F4D0B33765FD1E57B8483C /* Pods-BitcoinPriceTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7CDA5471763D8B3DD83836A77E09EA /* Info.plist */,
+				6921544627F49683F60AE479D2B11675 /* Pods-BitcoinPriceTrackerUITests.modulemap */,
+				2CE37F8D2990F6E29C843A55EDF6381F /* Pods-BitcoinPriceTrackerUITests-acknowledgements.markdown */,
+				143698A37FD80B0470C240A28497928B /* Pods-BitcoinPriceTrackerUITests-acknowledgements.plist */,
+				4A23F129A94E354519750C545736FE7F /* Pods-BitcoinPriceTrackerUITests-dummy.m */,
+				85453DE93DE660225B57786F411C8B41 /* Pods-BitcoinPriceTrackerUITests-frameworks.sh */,
+				92549CE3D0F29ACAE2AE65CDF4B70382 /* Pods-BitcoinPriceTrackerUITests-resources.sh */,
+				6D524A87B0A66907AAA74FBFCA8026B1 /* Pods-BitcoinPriceTrackerUITests-umbrella.h */,
+				EBEE71001537B51BF347A3F9D2AFDB50 /* Pods-BitcoinPriceTrackerUITests.debug.xcconfig */,
+				8F0A0996A220769BBB962127ABBC448E /* Pods-BitcoinPriceTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-BitcoinPriceTrackerUITests";
+			path = "Target Support Files/Pods-BitcoinPriceTrackerUITests";
+			sourceTree = "<group>";
+		};
+		1F33DC8367D0DAA8D5C3F99E74FE65B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43394139DA778850AAC6CD529D62E2B /* Pods_BitcoinPriceTracker.framework */,
+				A8BE6472458266171D4B0ABC68CAD967 /* Pods_BitcoinPriceTrackerTests.framework */,
+				1868DD18896E9E75915113B318E79699 /* Pods_BitcoinPriceTrackerUITests.framework */,
+				80BE2E7C57B89C8E1B9ACD89CBCA2D1C /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F7C59B62C36C0AA6792881E8FA16AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A0ECD114D3E5A9F78AE6BF5309B23C /* Pods-BitcoinPriceTracker */,
+				A8908E71C00A87BA797DD570FA76059B /* Pods-BitcoinPriceTrackerTests */,
+				1DA0B41A18F4D0B33765FD1E57B8483C /* Pods-BitcoinPriceTrackerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38A0ECD114D3E5A9F78AE6BF5309B23C /* Pods-BitcoinPriceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C9E22A43BFD1F646D2731E4D217CE3B4 /* Info.plist */,
+				DED07C209577616D41239EB8E122552C /* Pods-BitcoinPriceTracker.modulemap */,
+				856985B56EFF3B1B4911A6F328C7B504 /* Pods-BitcoinPriceTracker-acknowledgements.markdown */,
+				F6FF7DE4960D293FBE3C55407F8784F6 /* Pods-BitcoinPriceTracker-acknowledgements.plist */,
+				FE771749DB30D5BEC4C1E8701F2CDAB3 /* Pods-BitcoinPriceTracker-dummy.m */,
+				9707F671E66B1E4431614209E62D313D /* Pods-BitcoinPriceTracker-frameworks.sh */,
+				EBA14403827910087FC366233FCF9746 /* Pods-BitcoinPriceTracker-resources.sh */,
+				F3031E88D2E2EDDCF5753220B9BA960F /* Pods-BitcoinPriceTracker-umbrella.h */,
+				7EBDCF94F5A3D09B5C87CB74F32A6D01 /* Pods-BitcoinPriceTracker.debug.xcconfig */,
+				AED1A4C0AB19F6C02596CDCD61271F59 /* Pods-BitcoinPriceTracker.release.xcconfig */,
+			);
+			name = "Pods-BitcoinPriceTracker";
+			path = "Target Support Files/Pods-BitcoinPriceTracker";
+			sourceTree = "<group>";
+		};
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				1F33DC8367D0DAA8D5C3F99E74FE65B5 /* Products */,
+				25F7C59B62C36C0AA6792881E8FA16AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
+				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
+				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
+				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
+				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
+				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		A8908E71C00A87BA797DD570FA76059B /* Pods-BitcoinPriceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F72221FCFA1F852A00196900E997D /* Info.plist */,
+				1A35F75B4AEBBDCC3B083DD4416AFD7B /* Pods-BitcoinPriceTrackerTests.modulemap */,
+				50D9A6AFA356311FDB02CD72C5F084A8 /* Pods-BitcoinPriceTrackerTests-acknowledgements.markdown */,
+				DB544BE4BB59642F0C3D35379118AD11 /* Pods-BitcoinPriceTrackerTests-acknowledgements.plist */,
+				6D551C8B9B5A3945559827295F964A7C /* Pods-BitcoinPriceTrackerTests-dummy.m */,
+				1D34C0C9FF9583AC158D93BE5D389381 /* Pods-BitcoinPriceTrackerTests-frameworks.sh */,
+				2057643A5FB9DFC6403ECF824B13D3BA /* Pods-BitcoinPriceTrackerTests-resources.sh */,
+				7396B14D35E2F6C2EFE348EAE2A70122 /* Pods-BitcoinPriceTrackerTests-umbrella.h */,
+				B550AB1B52C75FA1A42FDC3DA30D3ADF /* Pods-BitcoinPriceTrackerTests.debug.xcconfig */,
+				7240A77709AA16A8BCC14BEA354E0B1D /* Pods-BitcoinPriceTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-BitcoinPriceTrackerTests";
+			path = "Target Support Files/Pods-BitcoinPriceTrackerTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28422DBC5AF9E9AFCA199891D629F49D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D06B654B7B31F8E6601BA78522B69B7 /* Pods-BitcoinPriceTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC381D6EDF82BC57FA2B2001DCC307 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D780A8D1AB71E0675A70FDCDF9F7F996 /* Pods-BitcoinPriceTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91960D04304CFC1B5C66AB7F8297DC99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9184B3280A1F87D0ECF0965998281CF0 /* Pods-BitcoinPriceTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975EC89429E9AB21976A0A3E35A05851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B1633861C7DC7C702280654AA9258 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		458654988E00739B5DC2235EB2759F44 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFEC5CCB8D2A91DCAE52469F2C17025 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				D91B9CF9F1A9E7A42E108624D87EBE91 /* Sources */,
+				895E959DB758331CAC22BFCD40E22237 /* Frameworks */,
+				975EC89429E9AB21976A0A3E35A05851 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 80BE2E7C57B89C8E1B9ACD89CBCA2D1C /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46B3C402E9123DFD946CEC66A6A90EF4 /* Pods-BitcoinPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD77C5D4B7D913B01AF3182E5A035CC /* Build configuration list for PBXNativeTarget "Pods-BitcoinPriceTracker" */;
+			buildPhases = (
+				53E7C8E02422F4F57F743FEA7FE490FB /* Sources */,
+				57E967A13C699B3C1D38B44E5B259AC4 /* Frameworks */,
+				91960D04304CFC1B5C66AB7F8297DC99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B9E653D7D534E9A9DF49AE010ED0EA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BitcoinPriceTracker";
+			productName = "Pods-BitcoinPriceTracker";
+			productReference = F43394139DA778850AAC6CD529D62E2B /* Pods_BitcoinPriceTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69EEC6695588514F0A8DECCB020F3FDE /* Pods-BitcoinPriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63FD4E0EB47EF7C769891CC626D5862 /* Build configuration list for PBXNativeTarget "Pods-BitcoinPriceTrackerTests" */;
+			buildPhases = (
+				F574D14F9916DC26C8928EF0634ABCE2 /* Sources */,
+				37E284182727A65FC7FDBE63B6D2808D /* Frameworks */,
+				28422DBC5AF9E9AFCA199891D629F49D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BitcoinPriceTrackerTests";
+			productName = "Pods-BitcoinPriceTrackerTests";
+			productReference = A8BE6472458266171D4B0ABC68CAD967 /* Pods_BitcoinPriceTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		795C87FC59F60900C17ACB29E7FE2D37 /* Pods-BitcoinPriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8928AD7F4822FAA9C39AE7532C737F99 /* Build configuration list for PBXNativeTarget "Pods-BitcoinPriceTrackerUITests" */;
+			buildPhases = (
+				53A68984EEC66FE095E799A4CFAAC1F9 /* Sources */,
+				159DF2DADEDEA4E8EAD0FAEFFAB9D3DF /* Frameworks */,
+				74EC381D6EDF82BC57FA2B2001DCC307 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BitcoinPriceTrackerUITests";
+			productName = "Pods-BitcoinPriceTrackerUITests";
+			productReference = 1868DD18896E9E75915113B318E79699 /* Pods_BitcoinPriceTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1F33DC8367D0DAA8D5C3F99E74FE65B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B3C402E9123DFD946CEC66A6A90EF4 /* Pods-BitcoinPriceTracker */,
+				69EEC6695588514F0A8DECCB020F3FDE /* Pods-BitcoinPriceTrackerTests */,
+				795C87FC59F60900C17ACB29E7FE2D37 /* Pods-BitcoinPriceTrackerUITests */,
+				458654988E00739B5DC2235EB2759F44 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53A68984EEC66FE095E799A4CFAAC1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850BC04E0EFBD1389C4D3F5266ABD1C6 /* Pods-BitcoinPriceTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E7C8E02422F4F57F743FEA7FE490FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4386EF7ABFC552211061106E451C8 /* Pods-BitcoinPriceTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91B9CF9F1A9E7A42E108624D87EBE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C8DDE8C0FEA4114F3028F9009E88DF /* SwiftyJSON-dummy.m in Sources */,
+				492F05D9053390BE24A1FB884C5A9D6A /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F574D14F9916DC26C8928EF0634ABCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF6288739B17E281DD6DF7D2636E490 /* Pods-BitcoinPriceTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B9E653D7D534E9A9DF49AE010ED0EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 458654988E00739B5DC2235EB2759F44 /* SwiftyJSON */;
+			targetProxy = C635AEDC5ADBF663D783B8FD45D5182C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A9B32DBF1002BEB431A15181B5AB5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3427C658E10B5D3E08E56D9A8FAD38BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBDCF94F5A3D09B5C87CB74F32A6D01 /* Pods-BitcoinPriceTracker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPriceTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPriceTracker/Pods-BitcoinPriceTracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BitcoinPriceTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F7F03E54387D2D6C670943B231C97E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0A0996A220769BBB962127ABBC448E /* Pods-BitcoinPriceTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPriceTrackerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPriceTrackerUITests/Pods-BitcoinPriceTrackerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BitcoinPriceTrackerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		680AA58D523DF57729140E3AAFFDED94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEE71001537B51BF347A3F9D2AFDB50 /* Pods-BitcoinPriceTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPriceTrackerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPriceTrackerUITests/Pods-BitcoinPriceTrackerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BitcoinPriceTrackerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F248B1D633FE4E136372406F9AE5CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7240A77709AA16A8BCC14BEA354E0B1D /* Pods-BitcoinPriceTrackerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPriceTrackerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPriceTrackerTests/Pods-BitcoinPriceTrackerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BitcoinPriceTrackerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74EF9AFFACDBCDAA1C907B045B3FCBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B550AB1B52C75FA1A42FDC3DA30D3ADF /* Pods-BitcoinPriceTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPriceTrackerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPriceTrackerTests/Pods-BitcoinPriceTrackerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BitcoinPriceTrackerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3F95C6E0EA31415A711CC6E90FD6D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BACFA727F70678BF57BDF861CB8E30B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED1A4C0AB19F6C02596CDCD61271F59 /* Pods-BitcoinPriceTracker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BitcoinPriceTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitcoinPriceTracker/Pods-BitcoinPriceTracker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BitcoinPriceTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD77C5D4B7D913B01AF3182E5A035CC /* Build configuration list for PBXNativeTarget "Pods-BitcoinPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3427C658E10B5D3E08E56D9A8FAD38BB /* Debug */,
+				BACFA727F70678BF57BDF861CB8E30B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8928AD7F4822FAA9C39AE7532C737F99 /* Build configuration list for PBXNativeTarget "Pods-BitcoinPriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680AA58D523DF57729140E3AAFFDED94 /* Debug */,
+				5F7F03E54387D2D6C670943B231C97E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63FD4E0EB47EF7C769891CC626D5862 /* Build configuration list for PBXNativeTarget "Pods-BitcoinPriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EF9AFFACDBCDAA1C907B045B3FCBE6 /* Debug */,
+				6F248B1D633FE4E136372406F9AE5CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFEC5CCB8D2A91DCAE52469F2C17025 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9B32DBF1002BEB431A15181B5AB5F0 /* Debug */,
+				B3F95C6E0EA31415A711CC6E90FD6D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
